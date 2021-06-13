@@ -47,6 +47,7 @@ In the end of the process the model will learn the style pattern of the style im
 I want to perform style transfer for video, so I will first extract all the frames of a sample video, and insert all the frames into the Transformer-Net. It will then add style to the frame according to the style image. In the end of the process i will reunite all the frame and make from it a style transfer video.
 
 **Results**
+
 The original video:
 
 https://user-images.githubusercontent.com/71300410/121810060-fc359580-cc67-11eb-9eec-2a4914fe69fd.mp4
@@ -58,13 +59,4 @@ The style trasfer video:
 https://user-images.githubusercontent.com/71300410/121810226-a1506e00-cc68-11eb-956c-ad8309c90523.mp4
 
 
-The result are not ideal, I did succeed in create style transfer video, however there is a problem of dead pixels. The style that was transfer to the video obvious as in my previews style optimization project. To be continued.
-
-
-
-
-
-
-
-
-
+The result are not ideal, I did succeed in create style transfer video, however there is a problem of dead pixels. The style that was transfer to the video isn't obvious as in my previews style optimization project. To be continued.
