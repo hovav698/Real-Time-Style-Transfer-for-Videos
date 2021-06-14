@@ -18,7 +18,8 @@ The network transforms input images into output images. The exact model architec
 <img width="516" alt="RTST" src="https://user-images.githubusercontent.com/71300410/121808335-9a256200-cc60-11eb-8f7e-09b214af1a87.PNG">
 
 
-**VGG16 based CNN network**
+
+VGG16 based CNN network:
 
 The vgg based The network outputs activations from different layers of the vgg network, each activation represent features of different scale.
 
