@@ -15,13 +15,14 @@ Transformer-Net network (Doesn't have any connection to the NLP transformer mode
 
 The network transforms input images into output images. The exact model architecture can be found [here](https://cs.stanford.edu/people/jcjohns/papers/fast-style/fast-style-supp.pdf). We will use the coco14 image dataset as input for the network. The network is resposible to generate the styled images for any image that fed into it. 
 
-<img width="516" alt="RTST" src="https://user-images.githubusercontent.com/71300410/121808335-9a256200-cc60-11eb-8f7e-09b214af1a87.PNG">
-
-
 
 VGG16 based CNN network:
 
 The vgg based The network outputs activations from different layers of the vgg network, each activation represent features of different scale.
+
+Illustration of the model architecture:
+<img width="516" alt="RTST" src="https://user-images.githubusercontent.com/71300410/121808335-9a256200-cc60-11eb-8f7e-09b214af1a87.PNG">
+
 
 **Loss calculation and backpropogation**
 
